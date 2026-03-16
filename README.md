@@ -1,282 +1,124 @@
-------
-
-# 1️⃣ Việc bạn đã làm sáng nay (workflow hoàn chỉnh)
-
-### 1. Chuẩn bị file audio
-
-Bạn mở file tụng **地藏菩薩本願經** trong **Audacity**.
-
-Sau đó xử lý cơ bản:
-
-- kiểm tra waveform
-- nhận ra có **noise nền nhẹ**
-- chạy **Noise Reduction**
-
-quy trình:
-
 ```
-Effect
-→ Noise Removal and Repair
-→ Noise Reduction
-```
+# 📿 Buddhist Chanting Audio Collection
+## Thư viện MP3 tụng kinh Phật giáo
 
-------
+Kho lưu trữ các bản **tụng kinh Phật giáo (MP3)** để nghe trực tiếp hoặc tải về.
 
-### 2. Xử lý lỗi âm thanh
+Audio được chia theo **phẩm / chương** để tiện học và tụng.
 
-Bạn sửa các lỗi nhỏ:
+---
 
-- click noise
-- đoạn âm thanh đột ngột
-- peak quá lớn
+# 🎧 Audio Releases
 
-các công cụ dùng:
+Các file MP3 được lưu trong mục **Releases** của repository.
 
-```
-Repair
-Clip Fix
-Amplify
-```
+👉 Mở tại đây:
 
-------
+https://github.com/<your-username>/<repo-name>/releases
 
-### 3. Chuẩn hóa âm lượng
+Trong mỗi release có thể gồm:
 
-Bạn đã normalize toàn bộ file:
+- MP3 từng phẩm
+- MP3 toàn bộ
+- File ZIP tổng hợp
 
-```
-Ctrl + A
-Effect
-→ Normalize
-→ -1 dB
-```
+---
 
-Kết quả:
+# 📜 Nội dung hiện có
 
-- âm lượng đồng đều
-- không bị clipping
+## Kinh Địa Tạng (Kṣitigarbha Sutra)
 
-------
+| Phẩm | Tên phẩm | Audio |
+|-----|-----------|------|
+| 01 | Đao Lợi Thiên Cung Thần Thông Phẩm | |
+| 02 | Phân Thân Tập Hội Phẩm | |
+| 03 | Quán Chúng Sanh Nghiệp Duyên Phẩm | |
+| 04 | Diêm Phù Chúng Sanh Nghiệp Cảm Phẩm | |
+| 05 | Địa Ngục Danh Hiệu Phẩm | |
+| 06 | Như Lai Tán Thán Phẩm | |
+| 07 | Lợi Ích Còn Mất Phẩm | |
+| 08 | Diêm La Vương Chúng Tán Thán Phẩm | |
+| 09 | Xưng Danh Hiệu Chư Phật Phẩm | |
+| 10 | Hiệu Lượng Công Đức Bố Thí Phẩm | |
+| 11 | Địa Thần Hộ Pháp Phẩm | |
+| 12 | Kiến Văn Lợi Ích Phẩm | |
+| 13 | Chúc Lụy Nhân Thiên Phẩm | |
 
-### 4. Tạo hệ thống bookmark (label)
+---
 
-Bạn tạo **17 label** tương ứng các phần kinh:
+# 📥 Tải toàn bộ
 
-```
-0:00   地藏菩薩本願經開頭
-0:16   香讚
-1:03   淨口業真言
-2:03   覺林菩薩偈
-4:22   讚
-5:58   開經偈
-6:29   忉利天宮神通品第一
-22:48  分身集會品第二
-34:43  閻浮眾生業感品第四
-49:30  地獄名號品第五
-56:02  如來讚歎品第六
-1:10:37 利益存亡品第七
-1:18:37 閻羅王眾讚歎品第八
-1:31:50 稱佛名號品第九
-1:38:07 校量布施功德緣品第十
-1:46:07 地神護法品第十一
-1:50:33 見聞利益品第十二
-2:08:25 囑累人天品第十三
+Trong mục **Releases** có file:
 ```
 
-và xác nhận:
+kstitigarbha_full_audio.zip
 
 ```
-2:21:51 = cuối file
+Tải về để nghe offline.
+
+---
+
+# 🎧 Nghe trực tiếp
+
+Sau khi tải về bạn có thể nghe bằng:
+
+- VLC
+- iPhone Music
+- Android player
+- máy nghe nhạc
+
+---
+
+# 📚 Nguồn kinh văn
+
+Kinh văn tham khảo:
+
+- Hán văn
+- Việt dịch
+- phiên âm
+
+Các bản văn có thể được lưu trong repo:
 ```
 
-→ **không thừa đoạn nào**.
-
-------
-
-### 5. Sửa file label
-
-Bạn đã:
-
-- chỉnh tab
-- import lại label
-- kiểm tra bookmark khớp với điện thoại.
-
-------
-
-### 6. Export thành nhiều MP3
-
-Bạn cấu hình:
+/text
 
 ```
-Export Audio
-→ Multiple Files
-→ Split based on Labels
-→ Using Label Name
-```
+---
 
-Bitrate:
+# 🪷 Mục đích
 
-```
-170–210 kbps
-```
+Repository này được tạo để:
 
-------
+- bảo tồn audio tụng kinh
+- giúp Phật tử dễ nghe và học kinh
+- chia sẻ miễn phí
 
-# 2️⃣ Bài học quan trọng hôm nay
+---
 
-## 1. Label phải khớp timeline audio
+# 🤝 Đóng góp
 
-Bookmark điện thoại **không phải lúc nào cũng khớp 100%** với file gốc.
+Bạn có thể đóng góp bằng cách:
 
-Luôn kiểm tra:
+- gửi bản tụng mới
+- sửa lỗi tên phẩm
+- thêm bản dịch
+- thêm audio
 
-```
-Label Editor
+---
+
+# 📜 License
+
+Nội dung audio được chia sẻ với mục đích:
+
+- học tập
+- tu tập
+- phi thương mại
+
+---
+
+# 🙏
+
+Nam Mô Địa Tạng Vương Bồ Tát
 ```
 
 ------
-
-## 2. Phần đầu kinh thường có đoạn “giới thiệu”
-
-Trong file hôm nay:
-
-```
-0:00 – 0:16
-```
-
-là đoạn đọc tên kinh.
-
-→ cần tạo label riêng:
-
-```
-地藏菩薩本願經開頭
-```
-
-------
-
-## 3. Phẩm cuối phải kéo đến hết file
-
-Bạn đã phát hiện lỗi quan trọng:
-
-```
-囑累人天品第十三
-```
-
-không kết thúc ở bookmark mà phải kéo tới:
-
-```
-2:21:51
-```
-
-------
-
-## 4. Normalize trước khi export
-
-Nếu không normalize:
-
-- mỗi đoạn MP3 âm lượng khác nhau
-- nghe rất khó chịu.
-
-------
-
-## 5. Export Multiple giúp tiết kiệm rất nhiều thời gian
-
-Nếu cắt thủ công:
-
-```
-17 đoạn × 3 phút = ~50 phút
-```
-
-Export Multiple:
-
-```
-10 giây
-```
-
-------
-
-# 3️⃣ Kinh nghiệm rút ra
-
-### 1. Workflow chuẩn khi làm audio kinh
-
-```
-1 import audio
-2 noise reduction
-3 repair lỗi
-4 normalize
-5 tạo label
-6 kiểm tra label
-7 export multiple mp3
-```
-
-------
-
-### 2. Label nên đặt số trước
-
-Ví dụ:
-
-```
-01 香讚
-02 淨口業真言
-03 覺林菩薩偈
-```
-
-để điện thoại **không sắp xếp sai**.
-
-------
-
-### 3. Luôn giữ file label
-
-File:
-
-```
-ksitigarbha_labels.txt
-```
-
-rất quan trọng.
-
-Sau này nếu audio lỗi bạn chỉ cần:
-
-```
-import label
-```
-
-→ 17 bookmark tự xuất hiện.
-
-------
-
-### 4. Audacity xử lý file dài vẫn ổn
-
-File của bạn:
-
-```
-2h21m
-```
-
-Noise reduction vẫn chạy được, chỉ cần chờ.
-
-------
-
-# 4️⃣ Kết quả cuối cùng của buổi sáng
-
-Bạn đã có:
-
-- audio sạch hơn
-- bookmark chuẩn
-- label file chuẩn
-- khả năng export thành **17 mp3 riêng**
-
-tương ứng:
-
-```
-香讚
-淨口業真言
-覺林菩薩偈
-開經偈
-...
-囑累人天品第十三
-```
-
-------
-
-💡
